@@ -134,3 +134,13 @@ console.log(finalGrade(100, 12));
 
 export default finalGrade;
 ```
+
+[//]: # (------------------------------------------------------------------------------------------------)
+### [Ошибки](https://ru.hexlet.io/courses/introduction_to_programming/lessons/errors/theory_unit)
+
+```javascript
+const fahrToCelsius = (fahr) => {
+  return (fahr - 32) * 5/9;
+}
+console.log(fahrToCelsius(50));
+```
