@@ -5,6 +5,8 @@
 [//]: # (================================================================================================)
 ## Введение в программирование
 
+
+
 [//]: # (------------------------------------------------------------------------------------------------)
 ### [Первая программа](https://ru.hexlet.io/courses/introduction_to_programming/lessons/hello/theory_unit)
 
@@ -14,6 +16,7 @@
 ```javascript
 console.log('Hello, World!');
 ```
+
 
 [//]: # (-------------------------------------------------------------------------------------------------)
 ### [Функции и ящики](https://ru.hexlet.io/courses/introduction_to_programming/lessons/functions/theory_unit)
@@ -56,6 +59,7 @@ function identity(value) {
   return value;
 }
 ```
+
 
 [//]: # (-------------------------------------------------------------------------------------------------)
 ### [Условия и принятия решений](https://ru.hexlet.io/courses/introduction_to_programming/lessons/boolean/theory_unit)
@@ -135,6 +139,7 @@ console.log(finalGrade(100, 12));
 export default finalGrade;
 ```
 
+
 [//]: # (------------------------------------------------------------------------------------------------)
 ### [Ошибки](https://ru.hexlet.io/courses/introduction_to_programming/lessons/errors/theory_unit)
 
@@ -144,3 +149,23 @@ const fahrToCelsius = (fahr) => {
 }
 console.log(fahrToCelsius(50));
 ```
+
+
+[//]: # (------------------------------------------------------------------------------------------------)
+### [Рекурсия](https://ru.hexlet.io/courses/introduction_to_programming/lessons/recursion/theory_unit)
+
+Функция, вычисляющая факториал:
+
+```javascript
+const factorial = (n) => {
+  if (n === 1) {
+    return 1;
+  }
+  else {
+    return n * factorial(n-1);
+  }
+}
+
+const answer = factorial(3);
+```
+
