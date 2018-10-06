@@ -173,3 +173,17 @@ const answer = factorial(3);
 1. *Простой базовый случай* или *терминальный сценарий*.
 2. Правило *двигаться по рекурсии*, углубляться.
 
+Функция, вычисляющая сумму числового ряда:
+
+```javascript
+const sequenceSum = (begin, end) => {
+  if (begin > end) {
+    return NaN;
+  } else if (begin === end) {
+    return begin;
+  }
+  return begin + sequenceSum(begin + 1, end);
+};
+
+const answer = sequenceSum(2,6);
+```
